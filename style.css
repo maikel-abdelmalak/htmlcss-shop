@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+header{
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 2;
+}
+
+.menu {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0%);
+    display: inline-block;
+
+}
+
+.menu h1 , .menu div {
+    display: inline-block;
+    color:white;
+    padding: 10px 30px 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.ham-menu{
+    background-color: #333;
+    width: 15vw;
+    height: 100%;
+    position: fixed;
+
+}
+#risultati{
+    background-color: white;
+    width: 80%;
+    position: absolute;
+    /* left: 50%; */
+    /* top: 22; */
+    /* transform: translate(-40%, 50%); */
+}
+.prodotto{
+    background-color: green;
+    height:250px;
+    width: 200px;
+    margin: 30px 30px;
+    position: relative;
+    border-radius: 15px 0px;
+    display: inline-block;
+}
+
+.prodotto p{
+    position: absolute;
+    right: 5px;
+    top:5px;
+    border-radius: 2px;
+    background-color: red;
+    padding: 3px 3px;
+}
+.overshade {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgba(20, 20, 20, 0.5);
+    border-radius: 15px 0px;
+    opacity: 0;
+}
+.overshade i{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+}
+
+.overshade:hover{
+    opacity: 1;
+}
