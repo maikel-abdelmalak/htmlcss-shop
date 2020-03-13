@@ -3,18 +3,18 @@
     padding 0;
     box-sizing: border-box;
 }
-main{
+body {
     width: 100vw;
     height: 100vh;
     background-color: grey;
 }
 
-header{
+header {
     background-color: #333;
     width: 100%;
     height: 60px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 
 .menu {
@@ -38,18 +38,16 @@ a{
 
 .ham-menu{
     background-color: #333;
-    width: 15vw;
+    width: 250px;
     height: 100%;
     position: fixed;
+    z-index: 2;
 
 }
 #risultati{
     background-color: white;
-    width: 80%;
     position: absolute;
-    /* left: 50%; */
-    /* top: 22; */
-    /* transform: translate(-40%, 50%); */
+    margin: 70px 50px 20px 270px;
 }
 .prodotto{
     background-color: green;
@@ -69,6 +67,7 @@ a{
     background-color: red;
     padding: 3px 3px;
 }
+
 .overshade {
     height: 100%;
     width: 100%;
@@ -77,6 +76,7 @@ a{
     border-radius: 15px 0px;
     opacity: 0;
 }
+
 .overshade i{
     position: absolute;
     top: 50%;
@@ -88,4 +88,12 @@ a{
 
 .overshade:hover{
     opacity: 1;
+}
+
+.linea{
+    width: 100%;
+    margin: 40px 20px 0px 20px;
+}
+.ppp{
+    background-color: black;
 }
